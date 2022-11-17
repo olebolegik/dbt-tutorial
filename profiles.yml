@@ -1,4 +1,4 @@
-company-name: dbt_tutorial
+dbt_tutorial:
   target: dev
   outputs:
     dev:
