@@ -1,4 +1,4 @@
-company-name:
+company-name: dbt_tutorial
   target: dev
   outputs:
     dev:
@@ -13,6 +13,6 @@ company-name:
       keepalives_idle: 0 # default 0, indicating the system default. See below
       connect_timeout: 10 # default 10 seconds
       retries: 1  # default 1 retry on error/timeout when opening connections
-      search_path: [optional, override the default postgres search_path]
-      role: [optional, set the role dbt assumes when executing queries]
-      sslmode: [optional, set the sslmode used to connect to the database]
+      #search_path: [optional, override the default postgres search_path]
+      #role: [optional, set the role dbt assumes when executing queries]
+      #sslmode: [optional, set the sslmode used to connect to the database]
