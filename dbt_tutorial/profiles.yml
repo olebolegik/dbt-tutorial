@@ -7,7 +7,7 @@ dbt_tutorial:
       user: postgres
       password: Password!23
       port: 5432
-      dbname: dbt
+      dbname: dbtpostgress
       schema: dbt
       threads: 1
       keepalives_idle: 0 # default 0, indicating the system default. See below
